@@ -5,18 +5,15 @@
 
 }
 
-h1{
+/*h1{
     font-size: 300%;
     font-weight: inherit;
     margin-top: 100px;
     padding-top: 20px;
     padding-bottom: 50px;
     background-color: #409a81;
-}
+}*/
 strong{
-    font-size: xx-large;
-}
-.strong{
     font-size: xx-large;
 }
 .texte{
