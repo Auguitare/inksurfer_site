@@ -63,7 +63,7 @@ p {
 /*défintion des bandeaux*/
 .Bandeau {
     background-color: white;
-    padding: 20px;
+    /*padding: 20px;*/
     width: 120%;
     margin-left: -20px;
 }
@@ -77,6 +77,8 @@ p {
 
 /*position du bandeau inférieur par rapport au haut de page*/
 #inf {
+    padding-top: 20px;
+    padding-bottom: 20px;
     position: fixed;
     bottom: 0px;
     z-index: 2;
@@ -87,22 +89,22 @@ p {
 #accueil {
     /*Bouton de retour à l'accueil*/
     /*box*/
-    background-color: #404040;
+    background-color: #409a81;
     padding: 20px;
     margin-left: 50px;
-
+    display: inline-block;
     /*text*/
     font-family: "TT Nooks Script Trial", serif;
     font-weight: 500;
     font-size: larger;
     text-decoration: none;
-    color: #fee47d;
+    color: #404040;
     transition: 0.5s;
 }
 
 #accueil:hover{
-    background-color: #fee47d;
-    color: #404040;
+    color: #fee47d;
+    scale: 1.2;
 }
 
 #menu {
@@ -114,6 +116,7 @@ p {
     /*overflow: auto;*/
     font-size: 110%;
     font-weight: 700;
+    padding-top: 20px;
 }
 
 .bouton {
@@ -126,8 +129,12 @@ p {
     color: inherit;
     transition: 0.3s;
 }
+/*aspect lorsque la souris passe dessus*/
 .bouton:hover{
     color: #fee47d;
+    text-decoration: underline #fee47d;
+    text-underline-offset: 0.8em;
+    scale: 1.2;
 }
 
 /*      ---         Bandeau inf*/
@@ -135,6 +142,7 @@ p {
     /*bouton de lien vers les réseaux sociaux*/
     margin-left: 50px;
 }
+/*aspect lorsque la souris passe dessus*/
 
 
 /*pour voir sur quelle page on est sur le menu */
