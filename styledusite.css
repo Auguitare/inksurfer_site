@@ -132,10 +132,9 @@ p {
 }
 /*aspect lorsque la souris passe dessus*/
 .bouton:hover{
-    color: #fee47d;
+    color: #000;
     text-decoration: underline #fee47d;
     text-underline-offset: 0.8em;
-    border-left: 1px, solid, #fee47d; /* n'a pas d'effet*/
     scale: 1.2;
 }
 
