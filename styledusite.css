@@ -102,7 +102,7 @@ p {
     transition: 0.5s;
 }
 
-#accueil:hover{
+#accueil:hover{/*aspect lorsque la souris passe dessus*/
     color: #fee47d;
     scale: 1.2;
     box-shadow: 0px, 0px, 10px, #404040; /*n'a pas d'effet...*/
@@ -131,7 +131,7 @@ p {
     transition: 0.3s;
 }
 /*aspect lorsque la souris passe dessus*/
-.bouton:hover{
+.bouton:hover {
     color: #000;
     text-decoration: underline #fee47d;
     text-underline-offset: 0.8em;
@@ -143,8 +143,6 @@ p {
     /*bouton de lien vers les réseaux sociaux*/
     margin-left: 50px;
 }
-/*aspect lorsque la souris passe dessus*/
-
 
 /*pour voir sur quelle page on est sur le menu */
 #ici {
