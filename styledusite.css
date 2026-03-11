@@ -1,13 +1,13 @@
 /*Police d'écriture de titre*/
 @font-face {
     font-family: "TT Nooks Script Trial";
-    src: url(TT Nooks Script Trial Black.otf);
+    src: url(TTNooksScriptTrialBlack.otf);
 }
 
 /*Police d'écriture de texte*/
 @font-face {
     font-family: "TT Nooks Script Trial Light";
-    src: url(TT Nooks Script Trial Light.otf);
+    src: url(TTNooksScriptTrialLight.otf);
 }
 
 /*      ---         informations générales sur le style du site*/
