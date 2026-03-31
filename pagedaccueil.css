@@ -1,5 +1,7 @@
 p {
     text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
 #logo {
@@ -10,12 +12,29 @@ p {
 
 /*Inksurfer en gros au milieu*/
 #titre {
-    display: block;
+    display: inline-block;
     font-family: "TT Nooks Script Trial", serif;
     font-weight: 600;
     font-size: 500%;
 }
 
+#BD {
+  text-align: center;
+  clear: both;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.page{
+    display: inline-block;
+    width: 500px;
+    text-align: center;
+}
+
+.gras {
+    font-family: "TT Nooks Script Trial", serif;
+    font-weight: 300;
+}
 
 /* Mise en page des partenaires*/
 
