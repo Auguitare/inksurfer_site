@@ -2,15 +2,8 @@
 #Portfolio {
   text-align: center;
   clear: both;
-  margin-top: 150px;
-  margin-bottom: 150px;
+  margin: 150px;
 }
-
-/*#bouton {
-  font-family: "TT Nooks Script Trial", serif;
-  font-size: 180%;
-  font-weight: 700;
-}*/
 
 /* autoportrait */
 
@@ -83,6 +76,8 @@
 .inside_text {
   padding-right: 30px;
   padding-left: 30px;
+  margin-bottom: 10px;
+  margin-top: -10px;
 }
 
 .title {
@@ -90,6 +85,7 @@
   font-size: 200%;
   font-weight: 700;
   text-align: center;
+
 }
 
 /* la mise en page responsive*/
