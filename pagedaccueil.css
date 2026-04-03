@@ -12,10 +12,10 @@ p {
 
 /*Inksurfer en gros au milieu*/
 #titre {
-    display: inline-block;
+    /*display: inline-block;*/
     font-family: "TT Nooks Script Trial", serif;
     font-weight: 600;
-    font-size: 500%;
+    font-size: 5em;
 }
 
 #BD {
