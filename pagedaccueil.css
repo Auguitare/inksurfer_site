@@ -69,3 +69,12 @@ p {
 #gouesnou:hover{
     scale:1.2;
 }
+
+.intro{
+    display: inline-block;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: justify;
+    padding: 20px;
+}

@@ -56,6 +56,7 @@ video{
 
 
     /* carte des techniques */
+    /*
 .flip-card {
     background-color: transparent;
     width: 450px;
@@ -93,23 +94,22 @@ video{
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
-/* .flip-card-back{
-    box-shadow: 0 8px 14px 0 rgba(0,0,0,0.2);
-} */
+
 .center{
     margin: 0px auto;
 }
 
 .flip-card-back {
     background: rgb(255, 255, 255, 90%);
-  /* background: linear-gradient(120deg, white 30%, #fee47d 88%,
-     white 40%, #409a81 78%); */
   color: #404040;
   transform: rotateY(180deg);
 }
 .flip-card-front{
     background-color: transparent;
-}
+}*/
+
+
+
 
 /* position des cartes */
 .carte{
@@ -126,4 +126,11 @@ video{
 /* correction de la position des icones de réseaux et contact*/
 #inf{
     text-align: left;
+}
+
+#post{
+    display: inline-block;
+    width: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }

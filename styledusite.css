@@ -218,3 +218,14 @@ button:hover {
 button:active span::before {
     background: #404040;
 }
+
+
+
+.text{
+    display: inline-block;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: justify;
+    padding: 20px;
+}
